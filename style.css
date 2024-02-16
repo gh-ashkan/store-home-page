@@ -13,10 +13,43 @@ header .section-first div{
     padding: 3px 0;
     font-size: 12px;
 }
-header .section-first div.btn{
-    
-}
+
 header .section-first button{
     font-size: 14px;
     padding: 0;
+}
+nav div.brand a{
+    font-size: 25px;
+    font-weight: 600;
+}
+div.search div{
+    display: inline-block;
+}
+div.search form{
+    position: relative;
+    width: 100%;
+}
+div.search form label{
+    position: absolute;
+    top: 0;
+    right: 14%;
+}
+div.search form label i{
+    vertical-align: -5px;
+}
+div.search form input{
+    width: 90%;
+}
+div.search div.icon i{
+    font-size: 20px;
+}
+ul li{
+    padding: 0 30px;
+    padding-bottom: px;
+}
+ul li a.nav-link{
+    color: black;
+}
+ul li a.nav-link:hover{
+    text-decoration: underline;
 }
