@@ -83,6 +83,7 @@ header{
   margin-left: 20px;
   margin-top: 8px;
   font-size: 16px;
+  width: 100vh;
 }
 .timer-product{
   width: 100%;
@@ -172,12 +173,58 @@ body {
   border: none;
 }
 .row .btn-product button{
-  background-color: red;
+  background-color: rgb(183, 44, 44);
   border: none;
   width: 200px;
   height: 50px;
   border-radius: 5px;
   color: #fff;
+}
+
+
+
+div.line{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #484747;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.category .card:hover{
+  background: red;
+  color: #fff;
+}
+
+ .category .card{
+  height: 60%;
+  justify-content: center;
+  border: 1px solid #000;
+}
+ .category .card i{
+  font-size: 68px;
+}
+ .category .card   .card-title{
+
+  text-align: center;
+}
+
+
+
+
+
+
+
+.best-selling .btn{
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  background: rgb(183, 44, 44);
+  color: #fff;
+  right: 0;
 }
 
 
