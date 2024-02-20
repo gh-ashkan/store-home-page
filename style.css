@@ -228,3 +228,26 @@ div.line{
 }
 
 
+.row .img{
+  position: relative;
+}
+.img .text-banner {
+  position: absolute;
+  color: #fff;
+  top: 20%;
+  left: 10%;
+}
+.img .text-banner .card-title{
+  color: rgb(23, 170, 23);
+}
+.img .text-banner .card-header{
+  width: 55%;
+
+}
+.img .text-banner .btn{
+  background-color: rgb(23, 170, 23);
+  color: #fff;
+  width: 150px;
+  height: 50px;
+}
+
