@@ -251,3 +251,65 @@ div.line{
   height: 50px;
 }
 
+/* footer start */
+
+footer ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+footer ul li{
+  margin-bottom: 10px;
+}
+
+footer ul li form input.form-control{
+
+  width: 100vh;
+  background-color: transparent;
+  color: #ffffff;
+}
+footer ul li form input.form-control::placeholder{
+  color: #efefef;
+}
+footer ul li .nav-header{
+  font-size: 24px;
+}
+footer ul li a{
+  font-size: 16px;
+}
+footer ul.size-check li a{
+  font-size: 12px;
+}
+footer ul.size-check li a.nav-header{
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+footer .brand-footer ul .nav-item a{
+  font-size: 14px;
+}
+footer .brand-footer ul li{
+  padding-right: 25px;
+}
+footer .navbar{
+  border-right: none;
+}
+footer .row .copyright{
+  color: #484747;
+  border-top: 1px solid rgba(69, 68, 68, 0.6);
+}
+footer img{
+  width: 100%;
+  background: #000;
+  height: 100%;
+}
+ footer .navbar .last-nav li{
+  padding-right: 0;
+ }
+ footer .last-nav .text-gray{
+  color: #484747;
+ }
+ footer .navbar ul li.icon{
+  color: #fff;
+ }
+ footer .navbar ul li.icon span{
+  padding: 0 20px;
+ }
