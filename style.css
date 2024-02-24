@@ -294,8 +294,40 @@ div.line{
   text-decoration: underline;
 }
 
+/* offer icon start */
+
+.offer-icon .icon {
+  width: 100%;
+  /* background-color: aqua; */
+}
 
 
+/*  icon top bar start  */
+.row .top-bar i{
+  font-size: 28px;
+  color: #000;
+}    
+
+
+.offer-icon .icon .icon-inner{
+  background-color: #a49e9e;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 500px;
+  
+}
+.offer-icon .icon .icon-inner i{
+  font-size: 22px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 300%;
+  padding: 10px;
+  height: 45px;
+  width: 45px;
+  vertical-align: -22px;
+  
+}
 
 
 /* footer start */
