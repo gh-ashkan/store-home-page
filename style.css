@@ -286,8 +286,16 @@ div.line{
   grid-row:  2/3;
 }
 .gallery .card-body{
-  width: 45%;
+  width: 44%;
   
+}
+.gallery .minimum-image .card-body{
+  width: 100%;
+}
+.card-img-overlay{
+  position: absolute;
+  bottom: 0;
+  top: auto;
 }
 .gallery .card-body a{
   color: #ffffff;
@@ -298,7 +306,6 @@ div.line{
 
 .offer-icon .icon {
   width: 100%;
-  /* background-color: aqua; */
 }
 
 
