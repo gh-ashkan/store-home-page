@@ -232,7 +232,7 @@ div.line{
   position: relative;
 }
 .img .text-banner {
-  position: absolute;
+  position: absolute;  
   color: #fff;
   top: 20%;
   left: 10%;
@@ -380,8 +380,9 @@ footer img{
   background: #000;
   height: 100%;
 }
- footer .navbar .last-nav li{
-  padding-right: 0;
+ footer .navbar .last-nav li .picture{
+  /* padding: 50PX; */
+  width: 90%;
  }
  footer .last-nav .text-gray{
   color: #484747;
@@ -390,6 +391,7 @@ footer img{
   color: #fff;
  }
  footer .navbar ul li.icon span{
-  padding: 0 30px;
+  padding-right:  40px;
+  font-size: 18px;
  }
  
